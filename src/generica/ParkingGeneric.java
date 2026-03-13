@@ -20,6 +20,8 @@ public class ParkingGeneric <E> {
         }
     }
 
+    //
+
     void sortida(E c){
         for (int i=0; i<places.length;i++){
             if (places[i]==c){
